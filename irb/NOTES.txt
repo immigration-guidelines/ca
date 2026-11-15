@@ -1,0 +1,51 @@
+Immigration and Refugee Board of Canada (IRB) - guidance to members (ca/irb/)
+===========================================================================
+
+Script: /home/brinly/immigration-guidelines/download_ca_irb.py
+Re-run: cd /home/brinly/immigration-guidelines && python3 download_ca_irb.py
+        (or name sources: guidelines jurisprudential-guides instructions policies procedures legal-resources)
+
+Source checked
+--------------
+Host: https://www.irb-cisr.gc.ca (robots.txt is empty: nothing excluded). The IRB answers scripted
+requests from this machine; www.canada.ca did not, and was not needed.
+
+Listing pages read, and every instrument linked from them saved (pages as served, .html, plus any PDF
+"printable version" or chapter PDFs they link):
+  https://www.irb-cisr.gc.ca/en/legal-policy/policies/Pages/chairperson-guideline.aspx      Chairperson's Guidelines (IRPA s.159(1)(h))
+  https://www.irb-cisr.gc.ca/en/legal-policy/policies/Pages/jurisprudential-guides.aspx     jurisprudential guides, policy notes, revocations
+  https://www.irb-cisr.gc.ca/en/legal-policy/policies/Pages/chairperson-instructions.aspx   Chairperson's Instructions
+  https://www.irb-cisr.gc.ca/en/legal-policy/policies/Pages/policies.aspx                   IRB policies
+  https://www.irb-cisr.gc.ca/en/legal-policy/procedures/Pages/index.aspx                    procedures and practice notices
+  https://www.irb-cisr.gc.ca/en/legal-policy/legal-concepts/Pages/index.aspx                IRB Legal Services papers used by members
+     (Interpretation of the Convention refugee definition, every chapter; Assessment of credibility;
+      Weighing evidence, every chapter; Removal order appeals and Sponsorship appeals papers, every
+      chapter PDF; Refugee Appeal Division handbook chapters; Designated representative guide)
+
+What is here
+------------
+161 indexed files, about 24 MB: 7 Chairperson's Guidelines files (Guidelines 2, 3, 4, 6, 8, 9 - the
+current set; 1, 5 and 7 have been rescinded or replaced), 9 instructions, 16 jurisprudential-guide
+items (designated decisions, policy notes, revocation notices, the policy on guidelines and JGs),
+18 policies, 36 procedures/practice notices, 75 legal-services papers and chapters. Six of the rows
+are the listing pages themselves (marked "(listing page)" in the title). All kind = guidance.
+`date` is the page's dcterms.modified (last change on the site), not the instrument's first issue;
+`first_issued` holds dcterms.issued where the page gives it. PDFs have no date in the name.
+Pages are bilingual-site English versions; the French versions were not collected.
+
+Not obtained: see not-obtained.tsv (two links on the listings that return HTTP 404, one practice
+notice behind the "My Case" portal, HTTP 401). Earlier, superseded versions of the Chairperson's
+Guidelines (e.g. Guideline 4 of 1996/2003, Guideline 9 of 2017, rescinded Guidelines 5 and 7) are
+not on the site any more and were not sought from web archives.
+
+Assessment
+----------
+The IRB publishes a great deal of real guidance for its decision-makers: the Chairperson's
+Guidelines and jurisprudential guides are formal instruments members must take into account, the
+instructions and policies govern how members handle cases, and the Legal Services papers
+(refugee definition, credibility, weighing evidence, appeal papers, RAD handbook) are full-length
+legal manuals written for members. This folder holds essentially all that is currently published
+in English.
+
+History: the folder and script were made by a first agent (all 161 files); a second agent resumed,
+verified every file (pdfinfo / HTML check, index = files, no duplicates) and wrote this NOTES.txt.
