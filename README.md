@@ -9,4 +9,6 @@ Published guidance that the authorities of Canada issue to the officials who dec
 
 **Provinces and territories.** `provinces/` holds what the provinces publish for deciding their own immigration selection cases: 240 files, with their own `provinces/index.tsv`. Quebec's immigration ministry publishes a full officers' manual, the Guide des procédures d'immigration, with its procedure notes and management directives (in `provinces/qc/`), and Newfoundland and Labrador publishes its nominee programme's policies and procedures. British Columbia, Nova Scotia and the Northwest Territories publish binding programme guides, BC with every edition since 2017. Saskatchewan's, New Brunswick's, Prince Edward Island's and Yukon's sites refuse automated access; Ontario publishes nothing beyond its regulation. `provinces/NOTES.txt` has a line for each province and territory.
 
+**Labour authority.** `labour/` holds Employment and Social Development Canada's published programme requirements for the Temporary Foreign Worker Program (35 pages, 2017 to 2026), from Internet Archive copies. They are written for employers but are the only public statement of the criteria officers apply; ESDC's internal directives are not published.
+
 The documents remain the work of the authorities that published them.
